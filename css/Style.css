@@ -41,8 +41,8 @@ h1 {
 body header {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/DefPuebloCABA_-_Esquina_Homero_Manzi_Boedo.jpg/4592px-Mapcarta.jpg);
     background-repeat: no-repeat;
-    background-position-y: 39.95%; 
-    background-position-x: 60%;  
+    background-position-y: 39.95%;
+    background-position-x: 60%;
     background-clip: inherit;
 }
 
@@ -74,7 +74,7 @@ body header ul nav {
 
 }
 
-body header ul li button{
+body header ul li button {
     font-weight: bolder;
 }
 
@@ -90,26 +90,27 @@ nav ul li button {
 
 }
 
-nav ul li button a{
+nav ul li button a {
     text-decoration: none;
     color: black;
 
 }
 
 .contenedor__logo img {
-animation-name: girar;
-animation-iteration-count: infinite;
-animation-duration: 25s;
+    animation-name: girar;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
 
 }
 
-@keyframes girar{
-    from{
-        transform:isolate(0deg);
+@keyframes girar {
+    from {
+        transform: isolate(0deg);
 
     }
-    to{
-        transform:rotate(-360deg);
+
+    to {
+        transform: rotate(-360deg);
     }
 }
 
@@ -117,19 +118,20 @@ animation-duration: 25s;
     animation-name: girar2;
     animation-iteration-count: 1;
     animation-duration: 5s;
-    
+
+}
+
+@keyframes girar2 {
+    from {
+        transform: isolate(0deg);
+
     }
-    
-    @keyframes girar2{
-        from{
-            transform:isolate(0deg);
-    
-        }
-        to{
-            transform:rotate(180deg);
-        }
+
+    to {
+        transform: rotate(180deg);
     }
-    
+}
+
 
 
 .contenedor__logo img {
@@ -182,7 +184,7 @@ body main h3 {
     margin-bottom: 20em;
     padding-top: 1em;
     padding-bottom: 1em;
-    background: radial-gradient(circle, rgb(195, 207, 230),rgb(224, 208, 208));
+    background: radial-gradient(circle, rgb(195, 207, 230), rgb(224, 208, 208));
     margin-left: 8em;
     margin-right: 8em;
     border-radius: 20%;
@@ -204,12 +206,12 @@ body main h3 {
     margin-bottom: -30em;
     margin-top: 20em;
     padding-top: 2em;
-    background: radial-gradient(circle, rgb(183, 202, 235),rgb(224, 208, 208));
+    background: radial-gradient(circle, rgb(183, 202, 235), rgb(224, 208, 208));
     border-radius: 10%;
     border-top: solid;
     border-width: 0.8em;
     border-color: grey;
-    
+
 
 }
 
@@ -236,7 +238,8 @@ img {
 
 }
 
-.buttonSection {
+.buttonSection,
+.buttonSection1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     border: none;
@@ -248,7 +251,9 @@ img {
 }
 
 
-.h2Jb, .soneto, .librosJb__h2 {
+.h2Jb,
+.soneto,
+.librosJb__h2 {
     text-align: center;
 
 }
@@ -264,7 +269,7 @@ img {
     margin-top: 5em;
     padding-top: 1em;
     padding-bottom: 1em;
-    background: radial-gradient(circle, rgb(195, 207, 230),rgb(224, 208, 208));
+    background: radial-gradient(circle, rgb(195, 207, 230), rgb(224, 208, 208));
     margin-left: 8em;
     margin-right: 8em;
     border-radius: 10%;
@@ -280,8 +285,8 @@ img {
 
 }
 
-.librosJb__h2{
-margin-top: 1em;
+.librosJb__h2 {
+    margin-top: 1em;
 
 }
 
@@ -306,12 +311,14 @@ footer {
 
 }
 
-footer div h4,h5 {
+footer div h4,
+h5 {
     text-align: center;
 
 }
 
-footer div h4,h5 {
+footer div h4,
+h5 {
     font-size: small;
 
 }
@@ -356,7 +363,7 @@ footer .footerImg img {
     body header ul .contacto {
         border-right: black;
         border-right: double;
-    
+
     }
 
     body main {
@@ -371,7 +378,7 @@ footer .footerImg img {
         background-repeat: no-repeat;
         background-position: center;
         background-size: 20em;
-    
+
     }
 
     .contenedor__logo {
@@ -385,20 +392,20 @@ footer .footerImg img {
 
     }
 
-    .imagenes{
+    .imagenes {
         display: flex;
         justify-content: space-between;
         margin-bottom: 5em;
         margin-top: 20em;
         padding-top: 2em;
-        background:none ;
+        background: none;
         background-color: rgb(159, 177, 228);
         border-radius: 0%;
         border-top: none;
         border-width: 0em;
         border-color: none;
 
-}
+    }
 
     section {
         display: flex;
@@ -454,7 +461,7 @@ footer .footerImg img {
 
     }
 
-    
+
 
 }
 
@@ -499,8 +506,8 @@ footer .footerImg img {
 }
 
 @media screen and (min-width:420px) and (max-width:672px) {
-    
-    body header nav ul{
+
+    body header nav ul {
         margin-left: -2em;
 
     }
@@ -508,10 +515,28 @@ footer .footerImg img {
 }
 
 @media screen and (min-width:1000px) and (max-width:1100px) {
-    
-    .contenedor__logo{
-         margin-left: 2em;
+
+    .contenedor__logo {
+        margin-left: 2em;
 
     }
-    
+
+}
+
+@media screen and (min-width:420px) and (max-width:480px) {
+
+    .buttonSection1 {
+        margin-right: 10em;
+
+    }
+
+}
+
+@media screen and (min-width:380px) and (max-width:419px) {
+
+    .buttonSection1 {
+        margin-right: 7em;
+        
+    }
+
 }
